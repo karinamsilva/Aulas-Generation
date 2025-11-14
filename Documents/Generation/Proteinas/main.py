@@ -36,7 +36,7 @@ if __name__ == '__main__':
             peso_imc = float(input('Qual seu peso em KG: '))
             altura_imc = float(input('qual sua altura em Metros?  '))
             resultado_imc = calc_imc(peso_imc, altura_imc)
-            print(f'seu imc é de {round(resultado_imc,2)}, {imc(resultado_imc)} ')
+            print(f'seu imc é de {round(resultado_imc,2)}, {imc(resultado_imc)} \n ')
 
         else:
             print('FIM')

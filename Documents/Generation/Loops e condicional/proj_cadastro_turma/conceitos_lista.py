@@ -4,7 +4,7 @@ frutas = []
 #lista vazia 
 print(frutas)
 
-#adicionar, ver, excluir ou sair
+#opções 1- adicionar, 2- ver lista, 3- excluir ou 4- sair
 
 print('__________________ Bem vindo ao Varejão Gen________________________')
 print('Suas opções são: \n1 - adicionar fruta \n2 - Excluir fruta \n3- Ver lista \n4 - Sair')

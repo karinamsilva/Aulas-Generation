@@ -1,4 +1,4 @@
-from functions import calculation
+from functions import *
 
 # * = all tudo 
 
@@ -19,10 +19,9 @@ if __name__ == "__main__":
     num2 = float(input('Digite outro numero: '))
     opcao = input('Escolha uma opção: ')
 
-    print(calculation(num1,num2,opcao))
-    
+    #print(calculation(num1,num2,opcao)) - Versão testando função unica 
 
-    '''if opcao == '1':
+    if opcao == '1':
         print(soma(num1,num2))
     elif opcao == '2': 
         print(subtracao(num1,num2))
@@ -35,10 +34,4 @@ if __name__ == "__main__":
     elif opcao == '6':
         print(raiz(num1,num2))
     else:
-        print('Operação invalida')'''
-
-
-
-
-
-
+        print('Operação invalida')
